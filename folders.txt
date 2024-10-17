@@ -1,0 +1,11 @@
+    ├── .database
+    ├── .workingdocuments
+    ├── static
+    │   ├── css
+    │   ├── icons
+    │   ├── images
+    │   ├── js
+    ├── templates
+    ├── LICENSE
+    ├── main.py
+    └── database_manager.py

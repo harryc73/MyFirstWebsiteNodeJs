@@ -1,4 +1,6 @@
-// Insert additional backend js above the express server configuration
+const spawn = require("child_process").spawn;
+// you can add arguments with spawn('python',["path/to/script.py", arg1, arg2, ...])
+const pythonProcess = spawn("python", ["database_manager.py"]);
 
 const express = require("express");
 const path = require("path");

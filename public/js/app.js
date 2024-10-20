@@ -35,7 +35,7 @@ if ("serviceworker" in navigator) {
 app.post("/add.html", function (req, res) {
   db.serialize(() => {
     db.run(
-      "INSERT INTO email(email,name) VALUES(?,?)",
+      "INSERT INTO contact_list(email,name) VALUES(?,?)",
       [req.body.email, req.body.name],
       function (err) {
         if (err) {

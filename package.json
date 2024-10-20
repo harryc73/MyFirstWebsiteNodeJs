@@ -1,5 +1,21 @@
 {
   "dependencies": {
-    "body-parser": "^1.20.3"
-  }
+    "3": "^2.1.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "sqlite": "^5.1.1"
+  },
+  "name": "myfirstwebsitenodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
